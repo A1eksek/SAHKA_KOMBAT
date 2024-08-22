@@ -1,0 +1,144 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1,p, h2, h3, h4{
+    font-family: "Arco Regular";
+}
+p{
+    font-size: 20px;
+}
+#clicker{
+    width: 300px;
+    height: 900px;
+    /* background-color: rgb(117, 117, 117); */
+    margin: 0 auto;
+}
+#upgrade{
+    width: 450px;
+    height: 900px;
+    background-color: rgb(117, 117, 117);
+    float: right;
+    border-radius: 15px 0px 0px 0px;
+    /* overflow: scroll; */
+}
+#img_up{
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#upgrade_bottom{
+    float: right;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+#Home_butt{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+
+#img_up_X2{
+width: 120px;
+  height: 120px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#X2{
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+#h2_time_x2{
+    visibility: hidden;
+}
+
+@font-face {
+    font-family: "Arco Regular"; 
+    src: url("hrifts/Arco.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  }  
+
+#upgrade_bottom_X2{
+    float: right;
+  margin: 10px;
+  margin-right: 50px;
+}
+
+#img_auto_click{
+    width: 120px;
+  height: 120px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+
+#auto_click{
+    margin-top: 30px;
+  border: 3px solid black;
+}
+
+#but_auto_click{
+    float: right;
+    margin: 10px;
+    height: 70px;
+    width: 218px;
+    margin-right: 50px;
+}
+#Auto_click{
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+.Home_butt{
+    transition: transform 0.2s ease;
+}
+
+.up_but_1{
+    transition: transform 0.2s ease;
+}
+.up_but_1:hover {
+    transform: scale(1.1);
+}
+
+.up_but_2{
+    transition: transform 0.2s ease;
+}
+.up_but_2:hover {
+    transform: scale(1.1);
+}
+.up_but_3{
+    transition: transform 0.2s ease;
+}
+.up_but_3:hover {
+    transform: scale(1.1);
+}
+
+#sum_up_p{
+    margin-top: 40px;
+}
+#upgradeP{
+    margin-top: 100px;
+}
+
+#sum_up_p_X2{
+    margin-top: 40px;
+}
+#upgradeP_X2{
+    margin-top: 100px;
+}
+
