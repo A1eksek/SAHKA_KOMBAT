@@ -30,6 +30,8 @@ upgrade_but.addEventListener('click', function(){
         alert("Недостаточно coins");
     }
     else{
+        // const currentValue = parseInt(progress.value);
+        // progress.value = currentValue - sum_up;
         score = score - sum_up;
         upgrade0 = upgrade0 + 1;
         lvlclick++;
@@ -89,3 +91,16 @@ button_auto_click.addEventListener('click', function(){
         }
     }
 });
+
+// var progress = document.getElementById('file');
+// var h1_lvl_progress = document.getElementById('lvl_progress');
+
+// HomeButton.addEventListener("click", function(){
+//     const currentValue = parseInt(progress.value);
+//     progress.value = currentValue + upgrade0;
+//     if (progress.value == progress.max){
+//         progress.value = 0;
+//         progress.max = progress.max + 100;
+//         h1_lvl_progress.textContent = 'УРОВЕНЬ: ' + 1;
+//     }
+// })

@@ -3,7 +3,12 @@ body{
     margin: 0;
     padding: 0;
 }
-
+#file{
+    background-color: #ffffff;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+}
 h1,p, h2, h3, h4{
     font-family: "Arco Regular";
 }
@@ -18,10 +23,10 @@ p{
 }
 #upgrade{
     width: 450px;
-    height: 900px;
+    height: 800px;
     background-color: rgb(117, 117, 117);
     float: right;
-    border-radius: 15px 0px 0px 0px;
+    border-radius: 15px 0px 0px 15px;
     /* overflow: scroll; */
 }
 #img_up{
@@ -50,11 +55,11 @@ p{
 }
 
 #img_up_X2{
-width: 120px;
-  height: 120px;
-  float: left;
-  margin-left: 30px;
-  margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 #X2{
     margin-top: 30px;
