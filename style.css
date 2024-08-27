@@ -2,6 +2,7 @@ body{
     text-align: center;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 #file{
     background-color: #ffffff;
@@ -16,18 +17,19 @@ p{
     font-size: 20px;
 }
 #clicker{
-    width: 300px;
+    width: 400px;
     height: 900px;
     /* background-color: rgb(117, 117, 117); */
     margin: 0 auto;
 }
 #upgrade{
     width: 450px;
-    height: 800px;
+    height: 850px;
     background-color: rgb(117, 117, 117);
     float: right;
     border-radius: 15px 0px 0px 15px;
-    /* overflow: scroll; */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    position: relative;
 }
 #img_up{
     width: 120px;
@@ -48,6 +50,7 @@ p{
     border: none;
     font: inherit;
     color: inherit;
+    height: 220px;
     background-color: transparent;
     /* отображаем курсор в виде руки при наведении; некоторые
     считают, что необходимо оставлять стрелочный вид для кнопок */
@@ -147,3 +150,11 @@ p{
     margin-top: 100px;
 }
 
+.hidden {
+    transform: translateX(100%); /* Сдвигаем элемент вправо на 100% его ширины */
+    opacity: 0;
+
+}
+#hideButton{
+    margin-top: 20px;
+}
